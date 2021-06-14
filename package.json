@@ -1,0 +1,19 @@
+{
+  "name": "backgroundgnerator",
+  "version": "1.0.0",
+  "description": "text",
+  "main": "myFirstnode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chekitmarpak/Backgroundgnerator.git"
+  },
+  "author": "Chekit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chekitmarpak/Backgroundgnerator/issues"
+  },
+  "homepage": "https://github.com/chekitmarpak/Backgroundgnerator#readme"
+}
