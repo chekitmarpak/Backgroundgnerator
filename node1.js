@@ -2,7 +2,7 @@ const {MongoClient} = require('mongodb');
 
 async function main() {
 	// we'll add code here soon
-    const uri = "mongodb+srv://m001-student:<password>@sandbox.rzuyk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+    const uri = "mongodb+srv://m001-student:m001-mongodb-basics@sandbox.rzuyk.mongodb.net/sample_restaurants?retryWrites=true&w=majority";
     const client = new MongoClient(uri);
     try{
         await client.connect();
