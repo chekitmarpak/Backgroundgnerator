@@ -1,8 +1,6 @@
 const {MongoClient} = require('mongodb');
 
 async function main() {
-
-    const uri = "mongodb+srv://m001-student:m001-mongodb-basics@sandbox.rzuyk.mongodb.net/sample_restaurants?retryWrites=true&w=majority";
     const client = new MongoClient(uri);
     try{
         await client.connect();
